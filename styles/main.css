@@ -1,5 +1,8 @@
+/*Global setting*/
 body  {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image: url("../images/bats.gif");
+	margin-top: 3em;
 }
 a {
     font-weight: bold;
@@ -12,23 +15,47 @@ a:hover, a:focus {
     color: green;
 }
 
+#content-wrap{
+width: 800px;
+background-color: White;
+border: 2px black solid;
+box-shadow: 6px 6px 6px black;
+margin: 0 auto;
+}
+
 /* Header */
+header{
+	background: linear-gradient(45deg, white, orange 75%, black); 
+	margin: 0 auto;
+	border-bottom: 2px black solid;
+	padding-top: 20px;
+	padding-left: 20px;
+}
 header img { 
 	float: left; 
 } 
 header h2 {
 	font-size: 230%;
-	font-style: italic;
-	color: orange;
 	text-indent: 25px;
-	text-shadow: 2px 2px 2px black;
+	margin-top: 0px;
 }
 header h3 {
 	font-size: 125%;
 	text-indent: 25px;
 }
+/*Aside */
+aside {
+	padding: 10px;
+	width: 160px;
+	float: left;
+	padding-right: 20px;
+}
 
 /* Main */
+main {
+	background-color: white;	
+	overflow: auto;
+}
 main h1 { 
 	font-size: 140%;
 }
@@ -46,7 +73,14 @@ ul {
 }
 
 /* Footer */
+footer{
+	clear: both;
+	border-top: 2px black solid;
+	background: linear-gradient(45deg, black, orange 75%, white); 
+	padding-bottom: 15px;
+}
 footer p {
 	font-size: 90%;
 	text-align: center;
+	margin-bottom: 0px;
 }
