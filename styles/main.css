@@ -19,7 +19,6 @@ a:hover, a:focus {
 
 /*Format the body of the page so it’s 800 pixels wide, has a white background, has a black border
 with a shadow, and is centered in the browser window.*/
-
 #content-wrap{
 width: 800px;
 background-color: white;
